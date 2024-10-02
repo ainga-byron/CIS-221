@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        button{
+            background: rebeccapurple;
+            border-radius: 20px;
+            cursor: pointer;
+
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form name="Login" method="post" action="login.php">
+   <h1>LOGIN FORM</h1>
+   Name:<input type="text"
+   name="username"
+   value="Enter username"/>
+   <br>
+   Password: <input type="password"
+   name="password"
+   value="">
+   <br>
+   <button type="submit" name="submit" >LOGIN</button>
+   <button type="reset" name="reset">CANCEL</button>
+   <br>
+   <a href="reset.html">Forgot Your Password</a>
+    </form>
+</body>
+</html>
